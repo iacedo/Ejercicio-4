@@ -1,0 +1,74 @@
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behaviour: auto !important;
+  }
+}
+
+/* Base */
+nav {}
+nav ul{}
+nav ul li {}
+nav ul li a{}
+
+div{}
+div h1{}
+div p{}
+
+figure {}
+figure h2 {}
+figure p {}
+figure img {}
+figure figcaption {}
+
+footer {}
+footer ul {}
+footer ul li {}
+footer ul li a {}
+
+/* Layout */
+
+/* Componentes */
+
+/* Utilidades */
